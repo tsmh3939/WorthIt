@@ -30,6 +30,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        {/* Cloudflare Web Analytics */}
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bfeb6af738b54613b998354d998e92a3"}' />
+        {/* End Cloudflare Web Analytics */}
       </body>
     </html>
   );
